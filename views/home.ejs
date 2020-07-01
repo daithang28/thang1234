@@ -1,0 +1,13 @@
+<%- include('partials/header') -%>
+
+<H1>
+    <center>Welcome to our toy store</center>
+</H1>
+<% if ( username ) { %>
+    <P> <%=username%> </P>
+<% }  %>
+
+
+<P> <%= mesg %> </P>
+
+<%- include('partials/footer') -%>
